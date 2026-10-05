@@ -1,0 +1,60 @@
+{
+  "id": "daggerheart-de",
+  "title": "Daggerheart - Deutsch - inoffiziell",
+  "description": "<p>Dieses Modul bietet eine inoffizielle Übersetzung des Daggerheart-Systems <br>Es wurde von Fans erstellt und verwendet das Babele-Modul.</p>",
+  "version": "1.1",
+  "url": "https://github.com/Arcadio21/daggerheart-de",
+  "manifest": "https://raw.githubusercontent.com/Arcadio21/daggerheart-de/main/module.json",
+  "download": "https://codeload.github.com/Arcadio21/daggerheart-de/zip/main",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Alexis Witteck",
+      "discord": "",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.8.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "daggerheart-de.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "lang/de-DE.json",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "json"
+      ],
+      "paths": [
+        "lang/"
+      ]
+    }
+  }
+}
